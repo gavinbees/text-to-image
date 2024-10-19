@@ -11,6 +11,7 @@ def file_to_string(textfile):
         for y in x:
             s+=y
     print(len(s))
+    f.close()
     return s
             
 
